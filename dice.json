@@ -1,0 +1,48 @@
+{
+ "Account": { "Username": "vickyasw1",
+              "Password": "qwerty12"
+              },
+
+ "Interface":{ "Base Bet":"0.11111",
+               "Max Bet": "off",
+               "Chance": "62",
+               "Random":{"Auto": "off",
+                         "Min" : "60",
+                         "Max" : "65"
+                        },
+
+               "Cl_Seed":{"Auto"       :"on",
+                          "Every_Lose" : "2"
+                         }
+              },
+
+ "BetSet":{ "Bet"   : "L",
+            "H / L" :{"Auto"   : "on",
+                      "On Lose": "0",
+                      "On Win" : "1"
+                     }
+          },
+
+ "Increase" :{ "After Win"  : "0.8",
+               "After Lose" : "1.1"
+             },
+
+ "Reset"    :{ "If_Win"   : "1",
+               "If_Lose"  : "0"
+             },
+
+ "Stop"    :{ "Balance"  : "30000",
+              "If_Lose"  : "0",
+              "If_Prof"  : "50000.01"
+             },
+
+ "Withdraw" :{"Auto"   : "OFF",
+              "Initial": "0",
+              "Trigger": "500000",
+              "Wallet_doge" : "D7wnb429X7NYzmSA8Xy8WescWnj9dqG8mP",
+              "Wallet_ltc" : "MFSk9QchuDoqDsz6Fj4VnLfrvi84nwSmJu",
+              "Wallet_btc" : "3BAm1NZGbyQwG436JNTrXnJzVzxq1uXHzN",
+              "Wallet_eth" : "0x1dba62e7348689fc726f00374456dbb33496b213"
+              
+             }
+}
